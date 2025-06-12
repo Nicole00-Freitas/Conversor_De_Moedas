@@ -1,7 +1,44 @@
 package br.com.alura.desafio.conversorDeMoedas.principal;
 
+import br.com.alura.desafio.conversorDeMoedas.calculo.ConversorDeMoedas;
+import com.google.gson.Gson;
+
+import java.util.Scanner;
+
 public class Principal {
     public static void main(String[] args) {
+        int opcaoEscolhida;
+        double valorASerConvertido;
 
+        Scanner leitura = new Scanner(System.in);
+        System.out.println("========CONVERSOR DE MOEDAS===========");
+        System.out.println("Digite o número de uma das opções:");
+        System.out.println("1- Dólar -> Real");
+        System.out.println("2- Real -> Dólar");
+        System.out.println("3- Dólar -> Euro");
+        System.out.println("4- Euro -> Dólar");
+        System.out.println("5- Libra -> Dólar");
+        System.out.println("6- Dólar -> Libra");
+        System.out.println("======================================");
+        opcaoEscolhida = leitura.nextInt();
+
+        if (opcaoEscolhida < 1 || opcaoEscolhida > 6){
+            System.out.println("Opção inválida, escolha entre 1 a 6. O programa será encerrado.");
+            return;
+        }
+
+        System.out.println("Digite o valor que deve ser convertido:");
+        valorASerConvertido = leitura.nextDouble();
+
+        System.out.println("Você escolheu a opção: " + opcaoEscolhida);
+        System.out.println("Valor informado: " + valorASerConvertido);
+
+        switch (opcaoEscolhida) {
+        case 1:
+            System.out.println();
+
+
+
+        }
     }
 }
