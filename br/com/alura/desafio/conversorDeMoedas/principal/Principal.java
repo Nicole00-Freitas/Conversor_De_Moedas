@@ -1,12 +1,12 @@
 package br.com.alura.desafio.conversorDeMoedas.principal;
 
 import br.com.alura.desafio.conversorDeMoedas.calculo.ConversorDeMoedas;
-import com.google.gson.Gson;
-
 import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
+        String moedaOrigem;
+        String moedaDestino;
         int opcaoEscolhida;
         double valorASerConvertido;
 
@@ -17,8 +17,8 @@ public class Principal {
         System.out.println("2- Real -> Dólar");
         System.out.println("3- Dólar -> Euro");
         System.out.println("4- Euro -> Dólar");
-        System.out.println("5- Libra -> Dólar");
-        System.out.println("6- Dólar -> Libra");
+        System.out.println("5- Dólar-> Libra");
+        System.out.println("6- Libra -> Dólar");
         System.out.println("======================================");
         opcaoEscolhida = leitura.nextInt();
 
@@ -34,11 +34,44 @@ public class Principal {
         System.out.println("Valor informado: " + valorASerConvertido);
 
         switch (opcaoEscolhida) {
-        case 1:
-            System.out.println();
+            case 1:
+                moedaOrigem = "USD";
+                moedaDestino = "BRL";
+                break;
 
+            case 2:
+                moedaOrigem = "BRL";
+                moedaDestino = "USD";
+                break;
 
+            case 3:
+                moedaOrigem = "USD";
+                moedaDestino = "EUR";
+                break;
 
+            case 4:
+                moedaOrigem = "EUR";
+                moedaDestino = "USD";
+                break;
+
+            case 5:
+                moedaOrigem = "USD";
+                moedaDestino = "GBP";
+                break;
+
+            case 6:
+                moedaOrigem = "GBP";
+                moedaDestino = "USD";
+                break;
+
+            default:
+                System.out.println("Opção inválida.");
+                return;
         }
+
+        ConversorDeMoedas conversor = new ConversorDeMoedas();
+        double valorConvertido = conversor.converter(moedaOrigem, moedaDestino, valorASerConvertido);
+        System.out.println("Valor convertido: " + valorConvertido);
+
     }
 }
