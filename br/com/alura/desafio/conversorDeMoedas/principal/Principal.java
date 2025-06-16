@@ -1,10 +1,12 @@
 package br.com.alura.desafio.conversorDeMoedas.principal;
 
 import br.com.alura.desafio.conversorDeMoedas.calculo.ConversorDeMoedas;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Principal {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, InterruptedException {
         String moedaOrigem;
         String moedaDestino;
         int opcaoEscolhida;
