@@ -1,7 +1,6 @@
 package br.com.alura.desafio.conversorDeMoedas.principal;
-
 import br.com.alura.desafio.conversorDeMoedas.calculo.ConversorDeMoedas;
-
+import br.com.alura.desafio.conversorDeMoedas.util.FormatadorMoeda;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -73,7 +72,16 @@ public class Principal {
 
         ConversorDeMoedas conversor = new ConversorDeMoedas();
         double valorConvertido = conversor.converter(moedaOrigem, moedaDestino, valorASerConvertido);
-        System.out.println("Valor convertido: " + valorConvertido);
+
+        String valorOrigemFormatado = FormatadorMoeda.formatarMoeda(valorASerConvertido, moedaOrigem);
+        String valorDestinoFormatado = FormatadorMoeda.formatarMoeda(valorConvertido, moedaDestino);
+
+        System.out.println("\n Conversão realizada com sucesso!");
+       // System.out.printf(" Conversão concluída: "  %s %s, "equivalem a " %s %s,
+       //         valorOrigemFormatado,
+        //        moedaOrigem,
+        //        valorDestinoFormatado,
+        //        moedaDestino);
 
     }
 }
