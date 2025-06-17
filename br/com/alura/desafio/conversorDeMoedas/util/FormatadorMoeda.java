@@ -14,6 +14,7 @@ public class FormatadorMoeda {
             case "GBP" -> local = Locale.UK;
             default -> local = Locale.getDefault();
         }
+
         NumberFormat formatarMoeda = NumberFormat.getCurrencyInstance(local);
         return formatarMoeda.format(valor);
     }
