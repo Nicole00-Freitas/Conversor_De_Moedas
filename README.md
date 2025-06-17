@@ -22,7 +22,7 @@
 
 
 
-<p align="left">📝Exibe um menu com 6 opções de conversão:<br>      -🇺🇸 Dólar → Real / Real → Dólar<br>      - 🇺🇸 Dólar → Euro / Euro → Dólar<br>      - 🇺🇸 Dólar → Libra / Libra →Dólar<br><br>💬 Interação via console<br><br>🧮 Conversão em tempo real via ExchangeRate API<br><br>💲 Formatação do valor com símbolo da moeda correta<br><br>✅ Validações:<br>     - Opção do menu inválida<br>     - Valor negativo ou zero<br>     - Entrada que não seja número<br><br> 📊 Exibição de detalhes técnicos (como a taxa de conversão)</p>
+<p align="left">📝Exibe um menu com 6 opções de conversão:<br>      -Dólar → Real / Real → Dólar<br>      -Dólar → Euro / Euro → Dólar<br>      -Dólar → Libra / Libra →Dólar<br><br>💬 Interação via console<br><br>🧮 Conversão em tempo real via ExchangeRate API<br><br>💲 Formatação do valor com símbolo da moeda correta<br><br>✅ Validações:<br>     - Opção do menu inválida<br>     - Valor negativo ou zero<br>     - Entrada que não seja número<br><br> 📊 Exibição de detalhes técnicos (como a taxa de conversão)</p>
 
 
 
