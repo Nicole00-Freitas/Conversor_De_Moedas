@@ -76,9 +76,8 @@
 
 ###
 
-<div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
-</div>
+![Logo ONE](Logo_ONE.png)
+![Logo Alura](Logo_Alura.jpeg)
 
 ###
 
