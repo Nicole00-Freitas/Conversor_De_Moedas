@@ -77,11 +77,11 @@ public class Principal {
         String valorDestinoFormatado = FormatadorMoeda.formatarMoeda(valorConvertido, moedaDestino);
 
         System.out.println("\n Conversão realizada com sucesso!");
-       // System.out.printf(" Conversão concluída: "  %s %s, "equivalem a " %s %s,
-       //         valorOrigemFormatado,
-        //        moedaOrigem,
-        //        valorDestinoFormatado,
-        //        moedaDestino);
+        System.out.printf("%s %s equivalem a %s %s\n",
+                valorOrigemFormatado,
+                moedaOrigem,
+                valorDestinoFormatado,
+                moedaDestino);
 
     }
 }
