@@ -14,9 +14,7 @@
 
 ###
 
-<div align="center">
-  <img height="255" src="https://i.imgflip.com/65efzo.gif"  />
-</div>
+![GIF-Demonstração do programa](Demonstração-Gif.gif)
 
 ###
 
