@@ -56,7 +56,7 @@
 
 ###
 
-<p align="left">1. Clone este repositório em sua máquina:<br><br>2.Abra o projeto em sua IDE Java (como IntelliJ, Eclipse, VSCode...).<br><br>3.Certifique-se de estar usando o Java 21 ou superior.<br><br>4.Execute a classe Principal.java.<br><br>5.Siga as instruções do console! 😊</p>
+<p align="left">1. Clone este repositório em sua máquina: https://github.com/Nicole00-Freitas/Conversor_De_Moedas<br><br>2.Abra o projeto em sua IDE Java (como IntelliJ, Eclipse, VSCode...).<br><br>3.Certifique-se de estar usando o Java 21 ou superior.<br><br>4.Execute a classe Principal.java.<br><br>5.Siga as instruções do console! 😊</p>
 
 ###
 
